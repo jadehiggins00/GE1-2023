@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="Themetaverse"
+run/main_scene="res://tankGame.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
+
+[filesystem]
+
+import/fbx/enabled=false
 
 [input]
 

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://k0tlgrxreumc"]
+
+[ext_resource type="Script" path="res://lab2.gd" id="1_mvn6s"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ex4ny"]
+albedo_color = Color(1, 0.749979, 0.969266, 1)
+
+[node name="root" type="Node3D"]
+script = ExtResource("1_mvn6s")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="MeshInstance3D"]
+material = SubResource("StandardMaterial3D_ex4ny")
