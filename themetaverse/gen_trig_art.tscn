@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://c0ktrtecma3rb"]
+[gd_scene load_steps=4 format=3 uid="uid://bavm38bq15o3"]
 
 [ext_resource type="Script" path="res://circles_of_things.gd" id="1_8db5k"]
-[ext_resource type="PackedScene" uid="uid://dajk1oava0d0c" path="res://dod.tscn" id="2_yvgpi"]
+[ext_resource type="PackedScene" uid="uid://b70adkr2chwo8" path="res://dod.tscn" id="2_yvgpi"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_f337j"]
 
